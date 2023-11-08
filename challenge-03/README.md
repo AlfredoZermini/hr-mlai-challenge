@@ -4,7 +4,9 @@ Please provide the description of the procedure to analyze [provided land](https
 
 Raw data of land is available at [https://nft.17tons.tech/explorer/lands/5](https://nft.17tons.tech/explorer/lands/5) and tree positions are available at [https://nft.17tons.tech/explorer/trees/land/5](https://nft.17tons.tech/explorer/trees/land/5).
 
-Providing a Jupyter Notebook with the procedure is a plus or even better the results with a working script.
+The primary objective of this exercise is to assess your proficiency in constructing a comprehensive model. Emphasis is placed on your capacity to discern relevant variables and incorporate them into a cohesive model that could be applied. We are not interested in the practical implementation of it. Instead, we are keen on observing your adeptness in identifying key parameters and formulating a model that streamlines the determination of the optimal soil moisture sensor placement. This placement should guarantee the accurate measurement of a representative sample, reflective of the broader characteristics of the land.
+
+To facilitate this process, we encourage you to conduct some research. This approach will aid you in formulating your assumptions.
 
 ## Specifications of humidity sensors
 
