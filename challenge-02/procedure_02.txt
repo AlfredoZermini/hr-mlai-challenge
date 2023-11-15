@@ -1,0 +1,20 @@
+After deleting the NaNs and fixed values (i.e. '0', '-99', as they do not seem to represent a
+meaningful physical quantity), I was left with several columns containing humidities.
+
+Plotting them against time reveals some sort of correlation. More specifically, the trend 
+is similar. This is also confirmed by using the corr() function, as the correlation values are
+close to 1., indicating a strong correlation.
+
+Battery (V) does not seem to provide any meaningful correlation with the other data. 
+I also tried plotting this one vs time and humidities, but I could not visually 
+identify any trend. 
+However, the histogram shows that the battery worked at 4.25 V most of the time, while
+fewer times the voltage was lower. Maybe this should investigated, as it could point to a
+battery malfunctioning.
+
+Sensor IDs and descriptions seem to be fixed for all the data points, thus I did not include
+them in the plots.
+
+At last, to double check that I did not miss any correlation in the discarded quantities,
+I decided to display the correlation for the discarded values as well (i.e. 0, -99).
+No meaningful correlation was found.

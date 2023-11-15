@@ -1,0 +1,20 @@
+We could utilize YOLO for aerial tree counting, in a similar manner as 
+done in this publication:
+https://www.tandfonline.com/doi/full/10.1080/17538947.2023.2173318
+
+The main tasks for the procedure:
+-Gather aerial images containing trees, ensuring diversity.
+-Annotate images with tree bounding boxes using annotation tools.
+-Resize images to fit YOLO input requirements.
+-Modify YOLO configuration files based on the custom dataset.
+-Split data, train the model on the labeled images to detect and count trees.
+-Assess model performance on a validation set; adjust parameters as needed.
+=Use the trained model to detect and count trees in new aerial images.
+-Refine the count by setting confidence thresholds or applying clustering algorithms.
+
+I did write a script which uses YOLOv8. However, the pre-trained model was not trained
+on aerial images. Thus, it does not perform any detection. 
+The model would need to be fine-tuned on such dataset.
+
+More specifically, this link provides a sort of walkthrough on how to implement this on YOLO v8
+https://medium.com/@tony.aloysius.77/implementing-yolov8-for-aerial-satellite-image-building-segmentation-and-converting-to-shape-files-899b2a8affa5
